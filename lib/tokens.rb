@@ -66,7 +66,7 @@ module OboParser::Tokens
         qq = 0 # some failsafes
         while xref_list.length > 0
           qq += 1
-          debugger if qq == 499
+          #debugger if qq == 499
           raise "#{xref_list}" if qq > 500
           xref_list.gsub!(/\A\s*,\s*/, '')
 

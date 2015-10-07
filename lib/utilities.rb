@@ -1,5 +1,4 @@
 require 'rubygems'
-require 'ruby-debug'
 require File.expand_path(File.join(File.dirname(__FILE__), 'obo_parser')) 
 
 module OboParser::Utilities
