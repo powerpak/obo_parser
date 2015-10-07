@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{obo_parser}
-  s.version = "0.3.7"
+  s.version = "0.3.8"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["mjy"]
-  s.date = %q{2011-08-25}
+  s.authors = ["mjy", "powerpak"]
+  s.date = %q{2015-10-06}
   s.description = %q{Provides all-in-one object containing the contents of an OBO formatted file.  OBO version 1.2 is targeted, though this should work for 1.0. }
-  s.email = %q{diapriid@gmail.com}
+  s.email = %q{theodore.r.pak@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
     "README.rdoc"
@@ -40,7 +40,7 @@ Gem::Specification.new do |s|
     "test/tgma.obo",
     "uninstall.rb"
   ]
-  s.homepage = %q{http://github.com/mjy/obo_parser}
+  s.homepage = %q{http://github.com/powerpak/obo_parser}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.7.2}
   s.summary = %q{A simple OBO file handler.}
