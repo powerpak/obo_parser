@@ -2,9 +2,14 @@
 
 A simple Ruby gem for parsing OBO 1.2 (?4) formatted ontology files.  Useful for reporting, comparing, and mapping data to other databases.  There is presently no functionality for logical inference across the ontology.
 
+@powerpak updated this to support Ruby >1.9 by simply removing references to `ruby-debug`.
+
 == Installation
 
-  gem install obo_parser
+RubyGems only has version 0.3.7, so to install this version you need to clone this repo and then:
+
+    gem build obo_parser.gemspec
+    gem install obo_parser-0.3.8.gem 
 
 == Use
 
